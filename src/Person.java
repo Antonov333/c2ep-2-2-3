@@ -1,6 +1,6 @@
 public class Person {
-    private String fullName;
-    private int age;
+    private final String fullName;
+    private final int age;
 
     public Person(String fullName, int age) {
         this.fullName = fullName;
